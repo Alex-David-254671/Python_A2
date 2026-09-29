@@ -1,0 +1,4 @@
+def sayhello():
+  print ("Hello teacher,wellcome to my respository")
+  print ("Have a nice day")
+sayhello()
