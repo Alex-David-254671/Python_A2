@@ -1,4 +1,4 @@
-def sayhello():
-  print ("Hello.Wellcome to my respository")
+def greet(name):
+  print ("Hello",name,"Wellcome to my respository")
   print ("Have a nice day")
-sayhello()
+greet("Mam Adeena")
