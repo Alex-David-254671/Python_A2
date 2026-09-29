@@ -1,0 +1,11 @@
+def calculate(num_1,num_2,operation):
+  
+  if operation== "+":
+    print("Addition:",num_1 + num_2)
+  if operation== "-":
+    print("Subtraction:",num_1 - num_2)
+  if operation== "*":
+    print("Multiplication",num_1*num_2)
+  if operation== "/":
+    print("Division",num_1 / num_2)
+calculate(3,4,"+")
