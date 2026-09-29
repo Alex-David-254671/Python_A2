@@ -1,0 +1,7 @@
+def calculateArea(length, width):
+    area = length * width
+    return area
+
+answer = calculateArea(79, 34)
+
+print("Area:", answer)
