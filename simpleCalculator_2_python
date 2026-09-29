@@ -1,0 +1,11 @@
+num_1=float(input("enter first number"))
+num_2=float(input("enter sceond number"))
+operation=input("enter a operation")
+if operation== "+":
+  print("Addition:",num_1 + num_2)
+if operation== "-":
+  print("Subtraction:",num_1 - num_2)
+if operation== "*":
+  print("Multiplication",num_1*num_2)
+if operation== "/":
+  print("Division",num_1 / num_2)
