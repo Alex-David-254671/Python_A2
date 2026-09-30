@@ -1,0 +1,24 @@
+#Question 1 Write a function: countVowels(word) 
+#The function should accept a word as a parameter and return the number of vowels in the word.
+#The main program should: 
+#• ask the user to enter a word  
+#• call the function  
+#• display the number of vowels.  
+#Example: Enter a word:
+#computer Number of vowels:
+#3 Do not use Python's built-in functions  counting vowels
+
+def countVowels(word):
+    count = 0
+    for i in range(len(word)):
+      if (word[i] == 'a' or word[i] == 'e' or word[i] == 'i' or 
+            word[i] == 'o' or word[i] == 'u' or 
+            word[i] == 'A' or word[i] == 'E' or word[i] == 'I' or 
+            word[i] == 'O' or word[i] == 'U'):
+            count += 1
+            
+    return count
+
+user_word = input("Enter a word: ")
+result = countVowels(user_word)
+print("Number of vowels: ",result )
