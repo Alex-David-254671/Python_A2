@@ -15,8 +15,8 @@ def binarySearch(numbers, target):
     return -1
 
 
-numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90]
+numbers = [1450, 3520, 4530, 5050, 6950,7860, 8070, 8980, 9000]
 
-result = binarySearch(numbers, 70)
+result = binarySearch(numbers, 8070)
 
 print(result)
