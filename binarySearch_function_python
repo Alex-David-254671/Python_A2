@@ -1,22 +1,22 @@
 def binarySearch(numbers, target):
-    low = 0
-    high = len(numbers) - 1
+    lowerbound = 0
+    upperbound = len(numbers) - 1
 
-    while low <= high:
-        mid = (low + high) // 2
+    while lowerbound <= upperbound:
+        mid = (lowerbound + upperbound) // 2
 
         if numbers[mid] == target:
             return mid
         elif numbers[mid] < target:
-            low = mid + 1
+            lowerbound = mid + 1
         else:
-            high = mid - 1
+            upperbound = mid - 1
 
-    return -1
+    return "item not here"
 
-
+Target=int(input("enter the item to find:"))
 numbers = [1450, 3520, 4530, 5050, 6950,7860, 8070, 8980, 9000]
 
-result = binarySearch(numbers, 8070)
+result = binarySearch(numbers, Target)
 
 print(result)
